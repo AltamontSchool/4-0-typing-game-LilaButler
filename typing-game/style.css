@@ -1,0 +1,19 @@
+/* inside style.css */
+.highlight {
+    background-color: rgb(43, 199, 207);
+  }
+  
+  .error {
+    background-color: rgb(59, 157, 92);
+    border: #4385e1;
+  }
+  .p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+  .p2 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  div {
+    resize: both;
+    overflow: auto;
+  }
