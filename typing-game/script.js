@@ -63,7 +63,7 @@ typedValueElement.addEventListener('input', () => {
       if(high_score<elapsedTime){
         high_score =elapsedTime;
       }
-      const message = `CONGRATULATIONS! You finished in ${elapsedTime / 1000} \nHigh Score; ${high_score / 1000}
+      const message = `CONGRATULATIONS! You finished in ${elapsedTime / 1000} \nHigh Score: ${high_score / 1000}`
       messageElement.innerText = message;
       typedValueElement.removeEventListener(this);
     } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
